@@ -1,0 +1,109 @@
+2022-10-17 23:21:12,359 - [base_cases.py-->line:18] - INFO: ---------【登陆】模块开始测试------------
+2022-10-17 23:21:12,360 - [base_cases.py-->line:25] - INFO: 用例【登录成功】开始测试
+2022-10-17 23:21:12,360 - [base_cases.py-->line:39] - INFO: ---------
+2022-10-17 23:21:12,516 - [base_cases.py-->line:53] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzA5MzYxMzMsImV4cCI6MTY2NDY3NTczNn0.7CII0BfCC_M1ElMeT714epc_mQNRcwalezzXvTy2r89FLms7psB-jiepGs-X2dhZKj2LC0keDgbzpcl0UpgSmw'}}
+2022-10-17 23:21:12,518 - [base_cases.py-->line:25] - INFO: 用例【用户名不正确】开始测试
+2022-10-17 23:21:12,518 - [base_cases.py-->line:39] - INFO: ---------
+2022-10-17 23:21:12,537 - [base_cases.py-->line:53] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-17 23:21:12,539 - [base_cases.py-->line:25] - INFO: 用例【密码不正确】开始测试
+2022-10-17 23:21:12,539 - [base_cases.py-->line:39] - INFO: ---------
+2022-10-17 23:21:12,666 - [base_cases.py-->line:53] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-17 23:21:12,670 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
+2022-10-17 23:25:14,098 - [base_cases.py-->line:16] - INFO: ---------【登陆】模块开始测试------------
+2022-10-17 23:25:14,099 - [base_cases.py-->line:23] - INFO: 用例【登录成功】开始测试
+2022-10-17 23:25:14,262 - [base_cases.py-->line:50] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzExOTgwMzUsImV4cCI6MTY2NDY3NTk5OH0.x2LBi7HMCnma0WdH4dm13hbZwWg-ML9Znf62QAR74LPbcLs6jC_nc_aDsXIgGt83YQcYVg4spUBclhQ4SJE61g'}}
+2022-10-17 23:25:14,263 - [base_cases.py-->line:37] - INFO: 用例【登录成功】结束测试
+2022-10-17 23:25:14,265 - [base_cases.py-->line:23] - INFO: 用例【用户名不正确】开始测试
+2022-10-17 23:25:14,284 - [base_cases.py-->line:50] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-17 23:25:14,285 - [base_cases.py-->line:37] - INFO: 用例【用户名不正确】结束测试
+2022-10-17 23:25:14,286 - [base_cases.py-->line:23] - INFO: 用例【密码不正确】开始测试
+2022-10-17 23:25:14,371 - [base_cases.py-->line:50] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-17 23:25:14,372 - [base_cases.py-->line:37] - INFO: 用例【密码不正确】结束测试
+2022-10-17 23:25:14,382 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块结束测试------------
+2022-10-17 23:26:05,738 - [base_cases.py-->line:16] - INFO: ---------【登陆】模块开始测试------------
+2022-10-17 23:26:05,739 - [base_cases.py-->line:23] - INFO: 用例【登录成功】开始测试
+2022-10-17 23:26:05,830 - [base_cases.py-->line:50] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzEyNTM5NjMsImV4cCI6MTY2NDY3NjA1M30.8Gsm5ljzZqeO_lFN_qpV_8Y8gt6dCXyJg_i84OrEY00Fi6yAVoh8lNNeVTXA5_K2s4g_Jj4PsSNQ6bpxRypiAw'}}
+2022-10-17 23:26:05,830 - [base_cases.py-->line:37] - INFO: 用例【登录成功】结束测试
+2022-10-17 23:26:05,831 - [base_cases.py-->line:23] - INFO: 用例【用户名不正确】开始测试
+2022-10-17 23:26:05,850 - [base_cases.py-->line:50] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-17 23:26:05,850 - [base_cases.py-->line:37] - INFO: 用例【用户名不正确】结束测试
+2022-10-17 23:26:05,851 - [base_cases.py-->line:23] - INFO: 用例【密码不正确】开始测试
+2022-10-17 23:26:05,928 - [base_cases.py-->line:50] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-17 23:26:05,928 - [base_cases.py-->line:37] - INFO: 用例【密码不正确】结束测试
+2022-10-17 23:26:05,930 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块结束测试------------
+2022-10-17 23:30:22,321 - [base_cases.py-->line:16] - INFO: ---------【登陆】模块开始测试------------
+2022-10-17 23:30:22,322 - [base_cases.py-->line:23] - INFO: 用例【登录成功】开始测试
+2022-10-17 23:30:22,435 - [base_cases.py-->line:50] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzE1MzE5MjIsImV4cCI6MTY2NDY3NjMzMX0.JlS__urdsglPt9X4ueAb7WzlFDN9kNIc_dgDQiXvfDTKG-JEdtZRmPczrYrtMFjNQjQF1wZ9zMeDOCrihQlikA'}}
+2022-10-17 23:30:22,435 - [base_cases.py-->line:37] - INFO: 用例【登录成功】结束测试
+2022-10-17 23:30:22,437 - [base_cases.py-->line:23] - INFO: 用例【用户名不正确】开始测试
+2022-10-17 23:30:22,460 - [base_cases.py-->line:50] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-17 23:30:22,460 - [base_cases.py-->line:37] - INFO: 用例【用户名不正确】结束测试
+2022-10-17 23:30:22,462 - [base_cases.py-->line:23] - INFO: 用例【密码不正确】开始测试
+2022-10-17 23:30:22,546 - [base_cases.py-->line:50] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-17 23:30:22,547 - [base_cases.py-->line:37] - INFO: 用例【密码不正确】结束测试
+2022-10-17 23:30:22,549 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块结束测试------------
+2022-10-17 23:32:37,875 - [base_cases.py-->line:16] - INFO: ---------【登陆】模块开始测试------------
+2022-10-17 23:32:37,875 - [base_cases.py-->line:23] - INFO: 用例【登录成功】开始测试
+2022-10-17 23:32:37,989 - [base_cases.py-->line:50] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzE2Nzg3NzcsImV4cCI6MTY2NDY3NjQ3OH0.9sIgv9XdKjQ-XnbRQpC9s_mFMyQX6YFjpOim_1HRMNkiW6qvz7lEKQtcgW8DV9ODXCBUOQa-SyVfJtSg5sFbJA'}}
+2022-10-17 23:32:37,989 - [base_cases.py-->line:37] - INFO: 用例【登录成功】结束测试
+2022-10-17 23:32:37,991 - [base_cases.py-->line:23] - INFO: 用例【用户名不正确】开始测试
+2022-10-17 23:32:38,015 - [base_cases.py-->line:50] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-17 23:32:38,015 - [base_cases.py-->line:37] - INFO: 用例【用户名不正确】结束测试
+2022-10-17 23:32:38,017 - [base_cases.py-->line:23] - INFO: 用例【密码不正确】开始测试
+2022-10-17 23:32:38,102 - [base_cases.py-->line:50] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-17 23:32:38,102 - [base_cases.py-->line:37] - INFO: 用例【密码不正确】结束测试
+2022-10-17 23:32:38,104 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块结束测试------------
+2022-10-17 23:32:38,106 - [base_cases.py-->line:16] - INFO: ---------【注册】模块开始测试------------
+2022-10-17 23:32:38,106 - [base_cases.py-->line:23] - INFO: 用例【注册成功】开始测试
+2022-10-17 23:32:38,381 - [base_cases.py-->line:50] - INFO: {'code': 500, 'message': '操作失败', 'data': None}
+2022-10-17 23:32:38,383 - [base_cases.py-->line:37] - INFO: 用例【注册成功】结束测试
+2022-10-17 23:32:38,385 - [base_cases.py-->line:19] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 10:07:24,336 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 10:07:24,336 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
+2022-10-18 10:07:55,448 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 10:08:06,436 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 10:08:06,436 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
+2022-10-18 10:08:09,880 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 10:08:44,862 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 10:08:44,863 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
+2022-10-18 10:08:47,596 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 10:11:28,398 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 10:11:28,398 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
+2022-10-18 10:11:42,302 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 10:13:38,775 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 10:13:38,776 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
+2022-10-18 10:14:53,921 - [base_cases.py-->line:24] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 10:15:27,398 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 10:15:27,398 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
+2022-10-18 10:15:35,884 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 10:15:35,884 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
+2022-10-18 10:15:35,981 - [base_cases.py-->line:24] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 10:15:36,049 - [base_cases.py-->line:24] - INFO: 用例【密码不正确】开始测试
+2022-10-18 10:15:36,129 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 10:16:09,032 - [base_cases.py-->line:24] - INFO: 用例【密码不正确】开始测试
+2022-10-18 10:16:42,522 - [base_cases.py-->line:24] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 10:16:42,592 - [base_cases.py-->line:24] - INFO: 用例【密码不正确】开始测试
+2022-10-18 10:16:42,681 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 10:16:42,681 - [base_cases.py-->line:17] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 10:16:42,681 - [base_cases.py-->line:24] - INFO: 用例【注册成功】开始测试
+2022-10-18 10:16:42,751 - [base_cases.py-->line:20] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 10:17:18,208 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 10:17:18,209 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
+2022-10-18 10:17:18,439 - [base_cases.py-->line:51] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzI0MjcxNjgsImV4cCI6MTY2NDY3NzIyN30.-3ZZdqfhayuftkoKvcCtCsG2-m4SkYmokaSOxAUASNkIgTR0mgUUwsjGQ3m25kj4ZH1gQKKcBBn2jDEaYWdMlA'}}
+2022-10-18 10:17:18,440 - [base_cases.py-->line:38] - INFO: 用例【登录成功】结束测试
+2022-10-18 10:17:18,441 - [base_cases.py-->line:24] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 10:17:18,482 - [base_cases.py-->line:51] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-18 10:17:18,482 - [base_cases.py-->line:38] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 10:17:18,485 - [base_cases.py-->line:24] - INFO: 用例【密码不正确】开始测试
+2022-10-18 10:17:18,578 - [base_cases.py-->line:51] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-18 10:17:18,578 - [base_cases.py-->line:38] - INFO: 用例【密码不正确】结束测试
+2022-10-18 10:17:18,580 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 10:17:18,581 - [base_cases.py-->line:17] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 10:17:18,582 - [base_cases.py-->line:24] - INFO: 用例【注册成功】开始测试
+2022-10-18 10:17:18,603 - [base_cases.py-->line:51] - INFO: {'code': 500, 'message': '操作失败', 'data': None}
+2022-10-18 10:17:18,603 - [base_cases.py-->line:38] - INFO: 用例【注册成功】结束测试
+2022-10-18 10:17:18,604 - [base_cases.py-->line:20] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 10:17:24,124 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 10:17:24,124 - [base_cases.py-->line:17] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 10:17:24,124 - [base_cases.py-->line:24] - INFO: 用例【注册成功】开始测试
+2022-10-18 10:18:39,196 - [base_cases.py-->line:20] - INFO: ---------【注册】模块结束测试------------
