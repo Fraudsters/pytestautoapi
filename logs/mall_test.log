@@ -1,109 +1,564 @@
-2022-10-17 23:21:12,359 - [base_cases.py-->line:18] - INFO: ---------【登陆】模块开始测试------------
-2022-10-17 23:21:12,360 - [base_cases.py-->line:25] - INFO: 用例【登录成功】开始测试
-2022-10-17 23:21:12,360 - [base_cases.py-->line:39] - INFO: ---------
-2022-10-17 23:21:12,516 - [base_cases.py-->line:53] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzA5MzYxMzMsImV4cCI6MTY2NDY3NTczNn0.7CII0BfCC_M1ElMeT714epc_mQNRcwalezzXvTy2r89FLms7psB-jiepGs-X2dhZKj2LC0keDgbzpcl0UpgSmw'}}
-2022-10-17 23:21:12,518 - [base_cases.py-->line:25] - INFO: 用例【用户名不正确】开始测试
-2022-10-17 23:21:12,518 - [base_cases.py-->line:39] - INFO: ---------
-2022-10-17 23:21:12,537 - [base_cases.py-->line:53] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
-2022-10-17 23:21:12,539 - [base_cases.py-->line:25] - INFO: 用例【密码不正确】开始测试
-2022-10-17 23:21:12,539 - [base_cases.py-->line:39] - INFO: ---------
-2022-10-17 23:21:12,666 - [base_cases.py-->line:53] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
-2022-10-17 23:21:12,670 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
-2022-10-17 23:25:14,098 - [base_cases.py-->line:16] - INFO: ---------【登陆】模块开始测试------------
-2022-10-17 23:25:14,099 - [base_cases.py-->line:23] - INFO: 用例【登录成功】开始测试
-2022-10-17 23:25:14,262 - [base_cases.py-->line:50] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzExOTgwMzUsImV4cCI6MTY2NDY3NTk5OH0.x2LBi7HMCnma0WdH4dm13hbZwWg-ML9Znf62QAR74LPbcLs6jC_nc_aDsXIgGt83YQcYVg4spUBclhQ4SJE61g'}}
-2022-10-17 23:25:14,263 - [base_cases.py-->line:37] - INFO: 用例【登录成功】结束测试
-2022-10-17 23:25:14,265 - [base_cases.py-->line:23] - INFO: 用例【用户名不正确】开始测试
-2022-10-17 23:25:14,284 - [base_cases.py-->line:50] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
-2022-10-17 23:25:14,285 - [base_cases.py-->line:37] - INFO: 用例【用户名不正确】结束测试
-2022-10-17 23:25:14,286 - [base_cases.py-->line:23] - INFO: 用例【密码不正确】开始测试
-2022-10-17 23:25:14,371 - [base_cases.py-->line:50] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
-2022-10-17 23:25:14,372 - [base_cases.py-->line:37] - INFO: 用例【密码不正确】结束测试
-2022-10-17 23:25:14,382 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块结束测试------------
-2022-10-17 23:26:05,738 - [base_cases.py-->line:16] - INFO: ---------【登陆】模块开始测试------------
-2022-10-17 23:26:05,739 - [base_cases.py-->line:23] - INFO: 用例【登录成功】开始测试
-2022-10-17 23:26:05,830 - [base_cases.py-->line:50] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzEyNTM5NjMsImV4cCI6MTY2NDY3NjA1M30.8Gsm5ljzZqeO_lFN_qpV_8Y8gt6dCXyJg_i84OrEY00Fi6yAVoh8lNNeVTXA5_K2s4g_Jj4PsSNQ6bpxRypiAw'}}
-2022-10-17 23:26:05,830 - [base_cases.py-->line:37] - INFO: 用例【登录成功】结束测试
-2022-10-17 23:26:05,831 - [base_cases.py-->line:23] - INFO: 用例【用户名不正确】开始测试
-2022-10-17 23:26:05,850 - [base_cases.py-->line:50] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
-2022-10-17 23:26:05,850 - [base_cases.py-->line:37] - INFO: 用例【用户名不正确】结束测试
-2022-10-17 23:26:05,851 - [base_cases.py-->line:23] - INFO: 用例【密码不正确】开始测试
-2022-10-17 23:26:05,928 - [base_cases.py-->line:50] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
-2022-10-17 23:26:05,928 - [base_cases.py-->line:37] - INFO: 用例【密码不正确】结束测试
-2022-10-17 23:26:05,930 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块结束测试------------
-2022-10-17 23:30:22,321 - [base_cases.py-->line:16] - INFO: ---------【登陆】模块开始测试------------
-2022-10-17 23:30:22,322 - [base_cases.py-->line:23] - INFO: 用例【登录成功】开始测试
-2022-10-17 23:30:22,435 - [base_cases.py-->line:50] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzE1MzE5MjIsImV4cCI6MTY2NDY3NjMzMX0.JlS__urdsglPt9X4ueAb7WzlFDN9kNIc_dgDQiXvfDTKG-JEdtZRmPczrYrtMFjNQjQF1wZ9zMeDOCrihQlikA'}}
-2022-10-17 23:30:22,435 - [base_cases.py-->line:37] - INFO: 用例【登录成功】结束测试
-2022-10-17 23:30:22,437 - [base_cases.py-->line:23] - INFO: 用例【用户名不正确】开始测试
-2022-10-17 23:30:22,460 - [base_cases.py-->line:50] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
-2022-10-17 23:30:22,460 - [base_cases.py-->line:37] - INFO: 用例【用户名不正确】结束测试
-2022-10-17 23:30:22,462 - [base_cases.py-->line:23] - INFO: 用例【密码不正确】开始测试
-2022-10-17 23:30:22,546 - [base_cases.py-->line:50] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
-2022-10-17 23:30:22,547 - [base_cases.py-->line:37] - INFO: 用例【密码不正确】结束测试
-2022-10-17 23:30:22,549 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块结束测试------------
-2022-10-17 23:32:37,875 - [base_cases.py-->line:16] - INFO: ---------【登陆】模块开始测试------------
-2022-10-17 23:32:37,875 - [base_cases.py-->line:23] - INFO: 用例【登录成功】开始测试
-2022-10-17 23:32:37,989 - [base_cases.py-->line:50] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzE2Nzg3NzcsImV4cCI6MTY2NDY3NjQ3OH0.9sIgv9XdKjQ-XnbRQpC9s_mFMyQX6YFjpOim_1HRMNkiW6qvz7lEKQtcgW8DV9ODXCBUOQa-SyVfJtSg5sFbJA'}}
-2022-10-17 23:32:37,989 - [base_cases.py-->line:37] - INFO: 用例【登录成功】结束测试
-2022-10-17 23:32:37,991 - [base_cases.py-->line:23] - INFO: 用例【用户名不正确】开始测试
-2022-10-17 23:32:38,015 - [base_cases.py-->line:50] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
-2022-10-17 23:32:38,015 - [base_cases.py-->line:37] - INFO: 用例【用户名不正确】结束测试
-2022-10-17 23:32:38,017 - [base_cases.py-->line:23] - INFO: 用例【密码不正确】开始测试
-2022-10-17 23:32:38,102 - [base_cases.py-->line:50] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
-2022-10-17 23:32:38,102 - [base_cases.py-->line:37] - INFO: 用例【密码不正确】结束测试
-2022-10-17 23:32:38,104 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块结束测试------------
-2022-10-17 23:32:38,106 - [base_cases.py-->line:16] - INFO: ---------【注册】模块开始测试------------
-2022-10-17 23:32:38,106 - [base_cases.py-->line:23] - INFO: 用例【注册成功】开始测试
-2022-10-17 23:32:38,381 - [base_cases.py-->line:50] - INFO: {'code': 500, 'message': '操作失败', 'data': None}
-2022-10-17 23:32:38,383 - [base_cases.py-->line:37] - INFO: 用例【注册成功】结束测试
-2022-10-17 23:32:38,385 - [base_cases.py-->line:19] - INFO: ---------【注册】模块结束测试------------
-2022-10-18 10:07:24,336 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
-2022-10-18 10:07:24,336 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
-2022-10-18 10:07:55,448 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
-2022-10-18 10:08:06,436 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
-2022-10-18 10:08:06,436 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
-2022-10-18 10:08:09,880 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
-2022-10-18 10:08:44,862 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
-2022-10-18 10:08:44,863 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
-2022-10-18 10:08:47,596 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
-2022-10-18 10:11:28,398 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
-2022-10-18 10:11:28,398 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
-2022-10-18 10:11:42,302 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
-2022-10-18 10:13:38,775 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
-2022-10-18 10:13:38,776 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
-2022-10-18 10:14:53,921 - [base_cases.py-->line:24] - INFO: 用例【用户名不正确】开始测试
-2022-10-18 10:15:27,398 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
-2022-10-18 10:15:27,398 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
-2022-10-18 10:15:35,884 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
-2022-10-18 10:15:35,884 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
-2022-10-18 10:15:35,981 - [base_cases.py-->line:24] - INFO: 用例【用户名不正确】开始测试
-2022-10-18 10:15:36,049 - [base_cases.py-->line:24] - INFO: 用例【密码不正确】开始测试
-2022-10-18 10:15:36,129 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
-2022-10-18 10:16:09,032 - [base_cases.py-->line:24] - INFO: 用例【密码不正确】开始测试
-2022-10-18 10:16:42,522 - [base_cases.py-->line:24] - INFO: 用例【用户名不正确】开始测试
-2022-10-18 10:16:42,592 - [base_cases.py-->line:24] - INFO: 用例【密码不正确】开始测试
-2022-10-18 10:16:42,681 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
-2022-10-18 10:16:42,681 - [base_cases.py-->line:17] - INFO: ---------【注册】模块开始测试------------
-2022-10-18 10:16:42,681 - [base_cases.py-->line:24] - INFO: 用例【注册成功】开始测试
-2022-10-18 10:16:42,751 - [base_cases.py-->line:20] - INFO: ---------【注册】模块结束测试------------
-2022-10-18 10:17:18,208 - [base_cases.py-->line:17] - INFO: ---------【登陆】模块开始测试------------
-2022-10-18 10:17:18,209 - [base_cases.py-->line:24] - INFO: 用例【登录成功】开始测试
-2022-10-18 10:17:18,439 - [base_cases.py-->line:51] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQwNzI0MjcxNjgsImV4cCI6MTY2NDY3NzIyN30.-3ZZdqfhayuftkoKvcCtCsG2-m4SkYmokaSOxAUASNkIgTR0mgUUwsjGQ3m25kj4ZH1gQKKcBBn2jDEaYWdMlA'}}
-2022-10-18 10:17:18,440 - [base_cases.py-->line:38] - INFO: 用例【登录成功】结束测试
-2022-10-18 10:17:18,441 - [base_cases.py-->line:24] - INFO: 用例【用户名不正确】开始测试
-2022-10-18 10:17:18,482 - [base_cases.py-->line:51] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
-2022-10-18 10:17:18,482 - [base_cases.py-->line:38] - INFO: 用例【用户名不正确】结束测试
-2022-10-18 10:17:18,485 - [base_cases.py-->line:24] - INFO: 用例【密码不正确】开始测试
-2022-10-18 10:17:18,578 - [base_cases.py-->line:51] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
-2022-10-18 10:17:18,578 - [base_cases.py-->line:38] - INFO: 用例【密码不正确】结束测试
-2022-10-18 10:17:18,580 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
-2022-10-18 10:17:18,581 - [base_cases.py-->line:17] - INFO: ---------【注册】模块开始测试------------
-2022-10-18 10:17:18,582 - [base_cases.py-->line:24] - INFO: 用例【注册成功】开始测试
-2022-10-18 10:17:18,603 - [base_cases.py-->line:51] - INFO: {'code': 500, 'message': '操作失败', 'data': None}
-2022-10-18 10:17:18,603 - [base_cases.py-->line:38] - INFO: 用例【注册成功】结束测试
-2022-10-18 10:17:18,604 - [base_cases.py-->line:20] - INFO: ---------【注册】模块结束测试------------
-2022-10-18 10:17:24,124 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块结束测试------------
-2022-10-18 10:17:24,124 - [base_cases.py-->line:17] - INFO: ---------【注册】模块开始测试------------
-2022-10-18 10:17:24,124 - [base_cases.py-->line:24] - INFO: 用例【注册成功】开始测试
-2022-10-18 10:18:39,196 - [base_cases.py-->line:20] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 15:21:34,089 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 15:21:34,090 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 15:21:34,151 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 15:21:34,156 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 15:21:34,163 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 15:21:34,164 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:21:34,166 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:21:34,166 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 15:21:34,167 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 15:21:34,172 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 15:24:42,900 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 15:24:42,901 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 15:24:42,969 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 15:24:42,981 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 15:24:42,994 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 15:24:42,995 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:24:42,997 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:24:42,998 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 15:24:42,998 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 15:24:43,009 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 15:26:39,623 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 15:26:39,623 - [base_cases.py-->line:27] - INFO: 用例【登录成功】开始测试
+2022-10-18 15:26:39,650 - [base_cases.py-->line:27] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 15:26:39,656 - [base_cases.py-->line:27] - INFO: 用例【密码不正确】开始测试
+2022-10-18 15:26:39,660 - [base_cases.py-->line:23] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 15:26:39,661 - [base_cases.py-->line:20] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:26:39,662 - [base_cases.py-->line:23] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:26:39,662 - [base_cases.py-->line:20] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 15:26:39,662 - [base_cases.py-->line:27] - INFO: 用例【注册成功】开始测试
+2022-10-18 15:26:39,667 - [base_cases.py-->line:23] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 15:27:18,053 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 15:27:18,053 - [base_cases.py-->line:27] - INFO: 用例【登录成功】开始测试
+2022-10-18 15:27:18,118 - [base_cases.py-->line:27] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 15:27:18,129 - [base_cases.py-->line:27] - INFO: 用例【密码不正确】开始测试
+2022-10-18 15:27:18,141 - [base_cases.py-->line:23] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 15:27:18,142 - [base_cases.py-->line:20] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:27:18,144 - [base_cases.py-->line:23] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:27:18,144 - [base_cases.py-->line:20] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 15:27:18,145 - [base_cases.py-->line:27] - INFO: 用例【注册成功】开始测试
+2022-10-18 15:27:18,157 - [base_cases.py-->line:23] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 15:31:15,583 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 15:31:15,584 - [base_cases.py-->line:27] - INFO: 用例【登录成功】开始测试
+2022-10-18 15:31:15,647 - [base_cases.py-->line:27] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 15:31:15,658 - [base_cases.py-->line:27] - INFO: 用例【密码不正确】开始测试
+2022-10-18 15:31:15,671 - [base_cases.py-->line:23] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 15:31:15,672 - [base_cases.py-->line:20] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:31:15,800 - [base_cases.py-->line:23] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:31:15,801 - [base_cases.py-->line:20] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 15:31:15,802 - [base_cases.py-->line:27] - INFO: 用例【注册成功】开始测试
+2022-10-18 15:31:15,823 - [base_cases.py-->line:23] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 15:32:47,763 - [base_cases.py-->line:20] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 15:32:47,763 - [base_cases.py-->line:27] - INFO: 用例【登录成功】开始测试
+2022-10-18 15:32:47,826 - [base_cases.py-->line:27] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 15:32:47,837 - [base_cases.py-->line:27] - INFO: 用例【密码不正确】开始测试
+2022-10-18 15:32:47,848 - [base_cases.py-->line:23] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 15:32:47,849 - [base_cases.py-->line:20] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:32:48,006 - [base_cases.py-->line:23] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:32:48,008 - [base_cases.py-->line:20] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 15:32:48,008 - [base_cases.py-->line:27] - INFO: 用例【注册成功】开始测试
+2022-10-18 15:32:48,028 - [base_cases.py-->line:23] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 15:34:33,539 - [base_cases.py-->line:20] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:34:33,696 - [base_cases.py-->line:23] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:35:52,060 - [base_cases.py-->line:20] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:35:52,250 - [base_cases.py-->line:23] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:36:21,039 - [base_cases.py-->line:20] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:36:21,201 - [base_cases.py-->line:23] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:36:26,983 - [base_cases.py-->line:20] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:36:27,137 - [base_cases.py-->line:23] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:37:43,518 - [base_cases.py-->line:20] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:37:43,678 - [base_cases.py-->line:23] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:37:53,649 - [base_cases.py-->line:20] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:37:53,853 - [base_cases.py-->line:23] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:41:38,352 - [base_cases.py-->line:20] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:48:51,578 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:49:40,683 - [base_cases.py-->line:23] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:49:40,700 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:49:44,062 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:49:50,871 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 15:51:29,614 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:51:30,462 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:51:30,681 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:53:02,396 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:53:02,553 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:53:40,898 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:53:41,153 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 15:55:07,712 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 15:55:07,970 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:04:42,441 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:04:42,614 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:05:44,695 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:05:57,489 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:06:36,242 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:06:37,161 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:06:39,945 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:06:54,326 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:06:55,222 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:06:59,992 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:08:50,061 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:08:50,584 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:08:50,716 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:08:50,747 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:10:37,595 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:10:45,710 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:11:29,011 - [base_cases.py-->line:61] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:11:30,247 - [base_cases.py-->line:63] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:11:48,394 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 16:11:48,398 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:13:54,417 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:13:54,588 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:13:54,588 - [base_cases.py-->line:61] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:13:54,641 - [base_cases.py-->line:63] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:13:54,641 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 16:13:54,642 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:14:01,277 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:23:57,928 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:23:57,930 - [base_cases.py-->line:61] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:23:57,952 - [base_cases.py-->line:63] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:23:57,952 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 16:23:57,956 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:32:57,304 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:33:11,099 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:33:12,034 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 16:33:12,035 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 16:33:12,100 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 16:33:12,107 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 16:33:12,113 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 16:33:12,114 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:33:22,307 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:33:22,713 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 16:33:22,713 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 16:33:22,737 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 16:33:22,740 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 16:33:22,742 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 16:33:22,743 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:33:22,853 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:33:22,857 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:34:08,582 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 16:34:08,583 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 16:34:08,605 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 16:34:08,607 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 16:34:08,610 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 16:34:08,610 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:34:08,735 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:34:08,740 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:41:21,368 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 16:41:21,368 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 16:41:21,390 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 16:41:21,392 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 16:41:21,395 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 16:41:21,395 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:41:21,493 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:41:21,497 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:41:59,050 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 16:41:59,050 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 16:41:59,074 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 16:41:59,076 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 16:41:59,078 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 16:41:59,079 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:41:59,185 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:41:59,185 - [base_cases.py-->line:61] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:41:59,214 - [base_cases.py-->line:63] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:41:59,214 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 16:41:59,215 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:43:43,514 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 16:43:43,515 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 16:43:43,515 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:43:43,609 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:43:43,609 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 16:43:43,610 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 16:43:43,610 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:43:43,770 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:43:43,770 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 16:43:43,773 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 16:43:43,774 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:43:43,881 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:43:43,881 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 16:43:43,882 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 16:43:43,883 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:43:43,972 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:43:43,973 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:43:44,014 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:43:44,015 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 16:43:44,018 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:44:22,034 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 16:44:22,035 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 16:44:22,035 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:44:22,122 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:44:22,122 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 16:44:22,123 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 16:44:22,123 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:44:22,140 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:44:22,140 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 16:44:22,141 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 16:44:22,141 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:44:22,215 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:44:22,215 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 16:44:22,216 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 16:44:22,217 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:44:22,337 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:44:22,337 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:44:22,360 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:44:22,360 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 16:44:22,361 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:44:22,361 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 16:44:22,361 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 16:44:22,393 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 16:46:23,194 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 16:46:23,194 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 16:46:23,194 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:46:23,320 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:46:23,320 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 16:46:23,321 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 16:46:23,322 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:46:23,343 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:46:23,343 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 16:46:23,344 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 16:46:23,344 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:46:23,429 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:46:23,430 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 16:46:23,432 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 16:46:23,433 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:46:23,532 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:46:23,533 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:46:23,556 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:46:23,556 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 16:46:23,557 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:46:23,558 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 16:46:23,558 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 16:46:23,602 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 16:47:42,580 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 16:47:42,581 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 16:47:42,581 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:47:42,684 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:47:42,685 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 16:47:42,687 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 16:47:42,687 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:47:42,707 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:47:42,707 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 16:47:42,709 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 16:47:42,710 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:47:42,787 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:47:42,788 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 16:47:42,791 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 16:47:42,793 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:47:42,879 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:47:42,880 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:47:42,898 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:47:42,898 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 16:47:42,900 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:47:42,900 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 16:47:42,963 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 16:48:36,380 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 16:48:36,381 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 16:48:36,381 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:48:36,537 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:48:36,538 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 16:48:36,540 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 16:48:36,541 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:48:36,563 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:48:36,564 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 16:48:36,566 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 16:48:36,566 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:48:36,654 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:48:36,655 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 16:48:36,657 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 16:48:36,658 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:48:36,765 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:48:36,766 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:48:36,787 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:48:36,788 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 16:48:36,791 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:48:36,793 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 16:48:46,644 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 16:54:23,949 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 16:54:24,832 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 16:54:24,832 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 16:54:24,833 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:54:24,923 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 16:54:24,923 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 16:54:24,925 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 16:54:24,926 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:54:24,985 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 16:54:24,985 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 16:54:24,986 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 16:54:24,987 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:54:25,076 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 16:54:25,076 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 16:54:25,078 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 16:54:25,079 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 16:54:25,163 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 16:54:25,164 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:54:25,185 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 16:54:25,185 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 16:54:25,186 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 16:54:25,187 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 16:54:31,269 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 16:54:57,259 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 16:55:02,563 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:00:17,285 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 17:00:18,383 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 17:00:18,383 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 17:00:18,384 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:00:18,481 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:00:18,481 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 17:00:18,482 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 17:00:18,483 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:00:18,518 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:00:18,518 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 17:00:18,520 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 17:00:18,520 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:00:18,619 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:00:18,619 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 17:00:18,620 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 17:00:18,621 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 17:00:18,703 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 17:00:18,704 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:00:18,726 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:00:18,726 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 17:00:18,728 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 17:00:18,729 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:00:23,999 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:00:44,435 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 17:00:45,424 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 17:00:45,425 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 17:00:45,425 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:00:45,512 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:00:45,513 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 17:00:45,514 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 17:00:45,514 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:00:45,533 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:00:45,534 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 17:00:45,535 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 17:00:45,535 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:00:45,639 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:00:45,639 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 17:00:45,641 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 17:00:45,642 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 17:00:45,764 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 17:00:45,764 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:00:45,783 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:00:45,783 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 17:00:45,785 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 17:00:45,786 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:00:48,199 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 17:00:51,579 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:00:51,579 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:00:51,605 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 17:01:20,018 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 17:01:20,018 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 17:01:20,018 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:01:20,168 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:01:20,168 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 17:01:20,169 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 17:01:20,170 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:01:20,236 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:01:20,236 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 17:01:20,237 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 17:01:20,237 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:01:20,316 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:01:20,316 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 17:01:20,317 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 17:01:20,318 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 17:01:20,424 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 17:01:20,424 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:01:20,471 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:01:20,471 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 17:01:20,472 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 17:01:20,472 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:01:20,472 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:01:20,501 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 17:02:41,799 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 17:02:41,800 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 17:02:41,800 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:02:41,912 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:02:41,912 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 17:02:41,913 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 17:02:41,913 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:02:41,930 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:02:41,930 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 17:02:41,931 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 17:02:41,932 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:02:42,009 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:02:42,009 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 17:02:42,010 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 17:02:42,010 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 17:02:42,100 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 17:02:42,100 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:02:42,122 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:02:42,122 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 17:02:42,123 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 17:02:42,124 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:02:42,124 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:02:42,154 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 17:03:31,694 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 17:03:31,695 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 17:03:31,695 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:03:31,820 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:03:31,820 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 17:03:31,821 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 17:03:31,821 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:03:31,838 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:03:31,838 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 17:03:31,839 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 17:03:31,839 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:03:31,912 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:03:31,912 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 17:03:31,913 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 17:03:31,913 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 17:03:31,998 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 17:03:31,998 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:03:32,014 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:03:32,014 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 17:03:32,016 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 17:03:32,016 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:03:32,017 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:03:32,048 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 17:05:28,177 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 17:05:28,177 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 17:05:28,177 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:05:28,284 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:05:28,284 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 17:05:28,285 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 17:05:28,285 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:05:28,304 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:05:28,304 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 17:05:28,305 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 17:05:28,305 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:05:28,388 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:05:28,388 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 17:05:28,388 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 17:05:28,389 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 17:05:28,505 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 17:05:28,505 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:05:28,561 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:05:28,561 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 17:05:28,562 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 17:05:28,563 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:05:28,563 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:05:52,671 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 17:05:53,608 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 17:05:53,622 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 17:05:53,623 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:05:53,727 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:05:53,727 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 17:05:53,728 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 17:05:53,729 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:05:53,747 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:05:53,747 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 17:05:53,748 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 17:05:53,749 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:05:53,829 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:05:53,829 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 17:05:53,831 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 17:05:53,832 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 17:05:53,914 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 17:05:53,914 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:05:53,933 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:05:53,933 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 17:05:53,935 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 17:05:53,935 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:05:56,616 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:06:13,046 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:06:16,032 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:07:46,642 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 17:07:46,642 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 17:07:46,643 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:07:46,794 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:07:46,795 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 17:07:46,797 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 17:07:46,798 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:07:46,819 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:07:46,820 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 17:07:46,822 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 17:07:46,823 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:07:46,905 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:07:46,905 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 17:07:46,908 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 17:07:46,909 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 17:07:47,001 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 17:07:47,001 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:07:47,022 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:07:47,023 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 17:07:47,024 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 17:07:47,025 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:07:49,224 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:08:37,261 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 17:08:37,679 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 17:08:37,680 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 17:08:37,680 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:08:37,777 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:08:37,777 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 17:08:37,778 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 17:08:37,778 - [base_cases.py-->line:64] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:08:37,797 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:08:37,797 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 17:08:37,798 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 17:08:37,798 - [base_cases.py-->line:64] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:08:37,884 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:08:37,884 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 17:08:37,885 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 17:08:37,886 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 17:08:37,976 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 17:08:37,976 - [base_cases.py-->line:64] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:08:37,996 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:08:37,996 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 17:08:37,998 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 17:08:37,999 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:08:38,000 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:08:38,000 - [base_cases.py-->line:64] - INFO: {'password': '123456', 'username': '#phone#'}
+2022-10-18 17:08:38,101 - [base_cases.py-->line:66] - INFO: {'password': '123456', 'username': '#phone#'}
+2022-10-18 17:08:38,101 - [base_cases.py-->line:40] - INFO: 用例【注册成功】结束测试
+2022-10-18 17:08:38,102 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 17:25:53,204 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 17:25:53,205 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 17:25:53,307 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:25:53,307 - [base_cases.py-->line:67] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQxMDAyODQ5OTEsImV4cCI6MTY2NDcwNTA4NH0.rFGszB1xKC2261NZvVVOUe-9Na3iqNWhyIvMchauHQe7fwGhzj5jhbuZY3qFHD89WIEkLSKw9O6W00iOAROxsQ'}}
+2022-10-18 17:25:53,307 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 17:25:53,308 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 17:25:53,327 - [base_cases.py-->line:66] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:25:53,327 - [base_cases.py-->line:67] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-18 17:25:53,327 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 17:25:53,328 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 17:25:53,408 - [base_cases.py-->line:66] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:25:53,409 - [base_cases.py-->line:67] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-18 17:25:53,409 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 17:25:53,410 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 17:25:53,411 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 17:25:53,522 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 17:25:53,538 - [base_cases.py-->line:66] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:25:53,539 - [base_cases.py-->line:67] - INFO: {'code': 404, 'message': 'usernamemust not be empty', 'data': None}
+2022-10-18 17:25:53,539 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 17:25:53,540 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 17:25:53,541 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:25:53,541 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:25:53,558 - [base_cases.py-->line:66] - INFO: {'password': '123456', 'username': '#phone#'}
+2022-10-18 17:25:53,558 - [base_cases.py-->line:67] - INFO: {'code': 500, 'message': '操作失败', 'data': None}
+2022-10-18 17:25:53,560 - [base_cases.py-->line:40] - INFO: 用例【注册成功】结束测试
+2022-10-18 17:25:53,560 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-18 17:29:17,230 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-18 17:29:17,230 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-18 17:29:17,328 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-18 17:29:17,328 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQxMDA1MDU5OTgsImV4cCI6MTY2NDcwNTMwNX0.94oNNzEjtfDACWdE2HnQkr7YrR3hMU3RWNWXh9dIs_UhDpd36mG89hY3srrOZFP_219N8Tvg6CWUfmPFB0CJFQ'}}
+2022-10-18 17:29:17,328 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-18 17:29:17,329 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-18 17:29:17,347 - [base_cases.py-->line:68] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-18 17:29:17,347 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-18 17:29:17,347 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-18 17:29:17,348 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-18 17:29:17,422 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-18 17:29:17,422 - [base_cases.py-->line:69] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-18 17:29:17,422 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-18 17:29:17,423 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-18 17:29:17,424 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-18 17:29:17,530 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-18 17:29:17,552 - [base_cases.py-->line:68] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-18 17:29:17,552 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': 'usernamemust not be empty', 'data': None}
+2022-10-18 17:29:17,552 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-18 17:29:17,554 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-18 17:29:17,554 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-18 17:29:17,555 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-18 17:29:17,641 - [base_cases.py-->line:68] - INFO: {'password': '123456', 'username': '18871219606'}
+2022-10-18 17:29:17,641 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'id': 13, 'username': '18871219606', 'password': '$2a$10$Q/GrGLPTZgK00u3Fv0kE5OpCk6ECg6T/7aCYJtRCvOfLgEv.TyHyO', 'icon': None, 'email': None, 'nickName': None, 'note': None, 'createTime': '2022-09-25T10:08:26.286+00:00', 'loginTime': None, 'status': 1}}
+2022-10-18 17:29:17,641 - [base_cases.py-->line:40] - INFO: 用例【注册成功】结束测试
+2022-10-18 17:29:17,642 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
