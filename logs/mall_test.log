@@ -562,3 +562,233 @@
 2022-10-18 17:29:17,641 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'id': 13, 'username': '18871219606', 'password': '$2a$10$Q/GrGLPTZgK00u3Fv0kE5OpCk6ECg6T/7aCYJtRCvOfLgEv.TyHyO', 'icon': None, 'email': None, 'nickName': None, 'note': None, 'createTime': '2022-09-25T10:08:26.286+00:00', 'loginTime': None, 'status': 1}}
 2022-10-18 17:29:17,641 - [base_cases.py-->line:40] - INFO: 用例【注册成功】结束测试
 2022-10-18 17:29:17,642 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-19 13:37:14,834 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-19 13:37:14,835 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-19 13:37:15,834 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-19 13:37:15,834 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQxMjY0NzgyOTgsImV4cCI6MTY2NDczMTI3OH0.L0trmqJwX3o6fxfT5QNWFbi-9dh06-g6TY2aKRbiwbDa_NK7Ziy3xPgrCs1MQqcBFZSeCqSlNWubjt3VBSI7Rw'}}
+2022-10-19 13:37:15,834 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-19 13:37:15,835 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-19 13:37:15,900 - [base_cases.py-->line:68] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-19 13:37:15,900 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-19 13:37:15,900 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-19 13:37:15,901 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-19 13:37:16,018 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-19 13:37:16,018 - [base_cases.py-->line:69] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-19 13:37:16,018 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-19 13:37:16,019 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-19 13:37:16,020 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-19 13:37:16,243 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-19 13:37:16,290 - [base_cases.py-->line:68] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-19 13:37:16,290 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': 'usernamemust not be empty', 'data': None}
+2022-10-19 13:37:16,290 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-19 13:37:16,291 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-19 13:37:16,292 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-19 13:37:16,292 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-19 13:37:16,412 - [base_cases.py-->line:68] - INFO: {'password': '123456', 'username': '15826792187'}
+2022-10-19 13:37:16,412 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'id': 14, 'username': '15826792187', 'password': '$2a$10$QKJ6tu0be1SeKs5rpmUy6uqTBYt5bijRESdlou9o0kWzHfx.qyJkS', 'icon': None, 'email': None, 'nickName': None, 'note': None, 'createTime': '2022-09-25T17:21:19.485+00:00', 'loginTime': None, 'status': 1}}
+2022-10-19 13:37:16,412 - [base_cases.py-->line:40] - INFO: 用例【注册成功】结束测试
+2022-10-19 13:37:16,413 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-19 13:53:21,458 - [base_cases.py-->line:19] - INFO: ---------【添加商品】模块开始测试------------
+2022-10-19 13:53:21,551 - [base_cases.py-->line:26] - INFO: 用例【增加商品成功】开始测试
+2022-10-19 13:53:21,800 - [base_cases.py-->line:68] - INFO: {'name': '123'}
+2022-10-19 13:53:21,801 - [base_cases.py-->line:69] - INFO: {'timestamp': '2022-09-25T17:38:45.613+00:00', 'status': 400, 'error': 'Bad Request', 'path': '/productAttribute/category/create'}
+2022-10-19 13:53:21,902 - [base_cases.py-->line:22] - INFO: ---------【添加商品】模块结束测试------------
+2022-10-19 13:53:21,902 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-19 13:53:21,903 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-19 13:53:21,981 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-19 13:53:21,982 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQxMjc1MjU4MDUsImV4cCI6MTY2NDczMjMyNX0.rY2-hZyGxLB5uYgcpPocIZ5a54ZmpOyuTFNjBjB5E4K6-H8hhHlAIqLLlkLKJI2jp90FzlmIVWbXGKzrtQ8LbQ'}}
+2022-10-19 13:53:21,982 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-19 13:53:21,983 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-19 13:53:21,998 - [base_cases.py-->line:68] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-19 13:53:21,998 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-19 13:53:21,998 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-19 13:53:21,999 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-19 13:53:22,065 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-19 13:53:22,066 - [base_cases.py-->line:69] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-19 13:53:22,066 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-19 13:53:22,067 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-19 13:53:22,067 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-19 13:53:22,174 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-19 13:53:22,180 - [base_cases.py-->line:68] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-19 13:53:22,181 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': 'usernamemust not be empty', 'data': None}
+2022-10-19 13:53:22,181 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-19 13:53:22,182 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-19 13:53:22,182 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-19 13:53:22,183 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-19 13:53:22,261 - [base_cases.py-->line:68] - INFO: {'password': '123456', 'username': '18731943514'}
+2022-10-19 13:53:22,262 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'id': 15, 'username': '18731943514', 'password': '$2a$10$o9z5jEZyS2/mtKdzy5cUpuqbtrlSWDX0x4pxhUZgKGXzF57qM0UQ.', 'icon': None, 'email': None, 'nickName': None, 'note': None, 'createTime': '2022-09-25T17:38:46.045+00:00', 'loginTime': None, 'status': 1}}
+2022-10-19 13:53:22,262 - [base_cases.py-->line:40] - INFO: 用例【注册成功】结束测试
+2022-10-19 13:53:22,262 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-19 13:55:59,313 - [base_cases.py-->line:19] - INFO: ---------【添加商品】模块开始测试------------
+2022-10-19 13:55:59,396 - [base_cases.py-->line:26] - INFO: 用例【增加商品成功】开始测试
+2022-10-19 13:55:59,456 - [base_cases.py-->line:68] - INFO: {'name': '四等原全无石做', 'navStatus': 91, 'showStatus': 53, 'icon': 'http://dummyimage.com/100x100', 'parentId': 26, 'productUnit': 'sintesseLoremut', 'productAttributeIdList': [34, 75], 'keywords': 'etmollitdoveniam', 'sort': 61436671, 'description': '问叫工反好本出厂七始究最维则。目别局阶入得育结技最示离。开都龙地容温持张快系使理文而住。包收眼建点其将实权飞来务年通感原。干过切置表物形其收集一队先共性济完候。'}
+2022-10-19 13:55:59,456 - [base_cases.py-->line:69] - INFO: {'timestamp': '2022-09-25T17:41:36.444+00:00', 'status': 400, 'error': 'Bad Request', 'path': '/productAttribute/category/create'}
+2022-10-19 13:55:59,560 - [base_cases.py-->line:22] - INFO: ---------【添加商品】模块结束测试------------
+2022-10-19 13:55:59,560 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-19 13:55:59,561 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-19 13:55:59,637 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-19 13:55:59,638 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQxMjc2OTY2MzQsImV4cCI6MTY2NDczMjQ5Nn0.1Q8oftn3JoHhW_mjO6GzVDQSr1kTc-393ma_ehFwoBoJYq67dL0YPzcg8HEDRY9aAYbdWdEQhG5mj3M_BQOkoQ'}}
+2022-10-19 13:55:59,638 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-19 13:55:59,639 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-19 13:55:59,645 - [base_cases.py-->line:68] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-19 13:55:59,645 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-19 13:55:59,645 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-19 13:55:59,646 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-19 13:55:59,712 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-19 13:55:59,712 - [base_cases.py-->line:69] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-19 13:55:59,712 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-19 13:55:59,713 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-19 13:55:59,714 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-19 13:55:59,808 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-19 13:55:59,824 - [base_cases.py-->line:68] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-19 13:55:59,824 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': 'passwordmust not be empty', 'data': None}
+2022-10-19 13:55:59,824 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-19 13:55:59,825 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-19 13:55:59,826 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-19 13:55:59,826 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-19 13:55:59,914 - [base_cases.py-->line:68] - INFO: {'password': '123456', 'username': '15519323861'}
+2022-10-19 13:55:59,915 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'id': 16, 'username': '15519323861', 'password': '$2a$10$mLmtnd0eRELYqWj7vvUWUuPrxsWc2KWaV7OksvAGeyfWCKIaNl4dO', 'icon': None, 'email': None, 'nickName': None, 'note': None, 'createTime': '2022-09-25T17:41:36.853+00:00', 'loginTime': None, 'status': 1}}
+2022-10-19 13:55:59,915 - [base_cases.py-->line:40] - INFO: 用例【注册成功】结束测试
+2022-10-19 13:55:59,915 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-19 14:05:25,401 - [base_cases.py-->line:19] - INFO: ---------【添加商品】模块开始测试------------
+2022-10-19 14:05:25,472 - [base_cases.py-->line:26] - INFO: 用例【增加商品成功】开始测试
+2022-10-19 14:05:25,492 - [base_cases.py-->line:68] - INFO: {'name': '四等原全无石做', 'navStatus': 91, 'showStatus': 53, 'icon': 'http://dummyimage.com/100x100', 'parentId': 26, 'productUnit': 'sintesseLoremut', 'productAttributeIdList': [34, 75], 'keywords': 'etmollitdoveniam', 'sort': 61436671, 'description': '问叫工反好本出厂七始究最维则。目别局阶入得育结技最示离。开都龙地容温持张快系使理文而住。包收眼建点其将实权飞来务年通感原。干过切置表物形其收集一队先共性济完候。'}
+2022-10-19 14:05:25,492 - [base_cases.py-->line:69] - INFO: {'timestamp': '2022-09-25T17:51:49.737+00:00', 'status': 400, 'error': 'Bad Request', 'path': '/productAttribute/category/create'}
+2022-10-19 14:05:25,593 - [base_cases.py-->line:22] - INFO: ---------【添加商品】模块结束测试------------
+2022-10-19 14:05:25,594 - [base_cases.py-->line:19] - INFO: ---------【获取商品】模块开始测试------------
+2022-10-19 14:05:25,664 - [base_cases.py-->line:26] - INFO: 用例【增加商品成功】开始测试
+2022-10-19 14:05:25,669 - [base_cases.py-->line:22] - INFO: ---------【获取商品】模块结束测试------------
+2022-10-19 14:05:25,670 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-19 14:05:25,670 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-19 14:05:25,749 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-19 14:05:25,749 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQxMjgzMTAwMTEsImV4cCI6MTY2NDczMzExMH0.kLZMB0TcKrw2IsDUA0UHVkZtgEaf8vHRTR6KRB88XgX2wGURr0hnOQf38ZZXX1maFccuktrHXyDU57PvbRA0tw'}}
+2022-10-19 14:05:25,749 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-19 14:05:25,750 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-19 14:05:25,772 - [base_cases.py-->line:68] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-19 14:05:25,772 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-19 14:05:25,773 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-19 14:05:25,774 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-19 14:05:25,838 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-19 14:05:25,838 - [base_cases.py-->line:69] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-19 14:05:25,838 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-19 14:05:25,839 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-19 14:05:25,839 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-19 14:05:25,912 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-19 14:05:25,925 - [base_cases.py-->line:68] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-19 14:05:25,925 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': 'usernamemust not be empty', 'data': None}
+2022-10-19 14:05:25,925 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-19 14:05:25,926 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-19 14:05:25,927 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-19 14:05:25,927 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-19 14:05:26,078 - [base_cases.py-->line:68] - INFO: {'password': '123456', 'username': '13914419387'}
+2022-10-19 14:05:26,079 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'id': 17, 'username': '13914419387', 'password': '$2a$10$IPQbCJewb5.GnJVW0NZ1ke2W9iS5FHUZpsJPoydmPv6F3O7ytbNXC', 'icon': None, 'email': None, 'nickName': None, 'note': None, 'createTime': '2022-09-25T17:51:50.214+00:00', 'loginTime': None, 'status': 1}}
+2022-10-19 14:05:26,079 - [base_cases.py-->line:40] - INFO: 用例【注册成功】结束测试
+2022-10-19 14:05:26,079 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-19 14:06:01,111 - [base_cases.py-->line:19] - INFO: ---------【添加商品】模块开始测试------------
+2022-10-19 14:06:01,181 - [base_cases.py-->line:26] - INFO: 用例【增加商品成功】开始测试
+2022-10-19 14:06:01,192 - [base_cases.py-->line:68] - INFO: {'name': '四等原全无石做', 'navStatus': 91, 'showStatus': 53, 'icon': 'http://dummyimage.com/100x100', 'parentId': 26, 'productUnit': 'sintesseLoremut', 'productAttributeIdList': [34, 75], 'keywords': 'etmollitdoveniam', 'sort': 61436671, 'description': '问叫工反好本出厂七始究最维则。目别局阶入得育结技最示离。开都龙地容温持张快系使理文而住。包收眼建点其将实权飞来务年通感原。干过切置表物形其收集一队先共性济完候。'}
+2022-10-19 14:06:01,192 - [base_cases.py-->line:69] - INFO: {'timestamp': '2022-09-25T17:52:28.416+00:00', 'status': 400, 'error': 'Bad Request', 'path': '/productAttribute/category/create'}
+2022-10-19 14:06:01,294 - [base_cases.py-->line:22] - INFO: ---------【添加商品】模块结束测试------------
+2022-10-19 14:06:01,295 - [base_cases.py-->line:19] - INFO: ---------【获取商品】模块开始测试------------
+2022-10-19 14:06:01,409 - [base_cases.py-->line:26] - INFO: 用例【增加商品成功】开始测试
+2022-10-19 14:06:01,689 - [base_cases.py-->line:68] - INFO: {'id': '123'}
+2022-10-19 14:06:01,689 - [base_cases.py-->line:69] - INFO: {'timestamp': '2022-09-25T17:52:28.956+00:00', 'status': 404, 'error': 'Not Found', 'path': '/product/updateInfo'}
+2022-10-19 14:06:01,695 - [base_cases.py-->line:22] - INFO: ---------【获取商品】模块结束测试------------
+2022-10-19 14:06:01,695 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-19 14:06:01,696 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-19 14:06:01,794 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-19 14:06:01,794 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQxMjgzNDkwNTEsImV4cCI6MTY2NDczMzE0OX0.9Y6m9EW-qPHJNsH1LHP6zbJ44NLphss7pv49goWoyyHPiZ1PDDXhvd0htXy4KRj8e_Dhl4e6d-mlqMRTue536w'}}
+2022-10-19 14:06:01,794 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-19 14:06:01,795 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-19 14:06:01,842 - [base_cases.py-->line:68] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-19 14:06:01,842 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-19 14:06:01,842 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-19 14:06:01,843 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-19 14:06:01,947 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-19 14:06:01,948 - [base_cases.py-->line:69] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-19 14:06:01,948 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-19 14:06:01,949 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-19 14:06:01,949 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-19 14:06:02,031 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-19 14:06:02,068 - [base_cases.py-->line:68] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-19 14:06:02,068 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': 'usernamemust not be empty', 'data': None}
+2022-10-19 14:06:02,068 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-19 14:06:02,069 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-19 14:06:02,070 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-19 14:06:02,070 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-19 14:06:02,145 - [base_cases.py-->line:68] - INFO: {'password': '123456', 'username': '18723288780'}
+2022-10-19 14:06:02,145 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'id': 18, 'username': '18723288780', 'password': '$2a$10$RoAGP3eQVvwlEw8pbCEVSOvp3PkuFcmm72rNcLGN9gfJXRDfGjNxy', 'icon': None, 'email': None, 'nickName': None, 'note': None, 'createTime': '2022-09-25T17:52:29.373+00:00', 'loginTime': None, 'status': 1}}
+2022-10-19 14:06:02,145 - [base_cases.py-->line:40] - INFO: 用例【注册成功】结束测试
+2022-10-19 14:06:02,146 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-19 14:10:13,960 - [base_cases.py-->line:19] - INFO: ---------【添加商品】模块开始测试------------
+2022-10-19 14:10:14,033 - [base_cases.py-->line:26] - INFO: 用例【增加商品成功】开始测试
+2022-10-19 14:10:14,073 - [base_cases.py-->line:68] - INFO: {'name': '四等原全无石做', 'navStatus': 91, 'showStatus': 53, 'icon': 'http://dummyimage.com/100x100', 'parentId': 26, 'productUnit': 'sintesseLoremut', 'productAttributeIdList': [34, 75], 'keywords': 'etmollitdoveniam', 'sort': 61436671, 'description': '问叫工反好本出厂七始究最维则。目别局阶入得育结技最示离。开都龙地容温持张快系使理文而住。包收眼建点其将实权飞来务年通感原。干过切置表物形其收集一队先共性济完候。'}
+2022-10-19 14:10:14,073 - [base_cases.py-->line:69] - INFO: {'timestamp': '2022-09-25T17:57:02.402+00:00', 'status': 400, 'error': 'Bad Request', 'path': '/productAttribute/category/create'}
+2022-10-19 14:10:14,182 - [base_cases.py-->line:22] - INFO: ---------【添加商品】模块结束测试------------
+2022-10-19 14:10:14,183 - [base_cases.py-->line:19] - INFO: ---------【获取商品】模块开始测试------------
+2022-10-19 14:10:14,342 - [base_cases.py-->line:26] - INFO: 用例【增加商品成功】开始测试
+2022-10-19 14:10:14,507 - [base_cases.py-->line:68] - INFO: {'id': '28'}
+2022-10-19 14:10:14,507 - [base_cases.py-->line:69] - INFO: {'timestamp': '2022-09-25T17:57:02.873+00:00', 'status': 404, 'error': 'Not Found', 'path': '/product/updateInfo'}
+2022-10-19 14:10:14,513 - [base_cases.py-->line:22] - INFO: ---------【获取商品】模块结束测试------------
+2022-10-19 14:10:14,513 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-19 14:10:14,513 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-19 14:10:14,691 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-19 14:10:14,691 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQxMjg2MjMwMzMsImV4cCI6MTY2NDczMzQyM30.eS8h_roGHzovJFBx_J4aENYchliiGgl50mn7tXp0Omt4nFSGTaG1wXyg_3wtQIFCzAezuNkcrhECJQ5uE-7sUw'}}
+2022-10-19 14:10:14,691 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-19 14:10:14,692 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-19 14:10:14,732 - [base_cases.py-->line:68] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-19 14:10:14,732 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-19 14:10:14,732 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-19 14:10:14,733 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-19 14:10:14,874 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-19 14:10:14,874 - [base_cases.py-->line:69] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-19 14:10:14,875 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-19 14:10:14,876 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-19 14:10:14,876 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-19 14:10:15,086 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-19 14:10:15,100 - [base_cases.py-->line:68] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-19 14:10:15,100 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': 'usernamemust not be empty', 'data': None}
+2022-10-19 14:10:15,100 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-19 14:10:15,102 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-19 14:10:15,102 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-19 14:10:15,102 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-19 14:10:15,282 - [base_cases.py-->line:68] - INFO: {'password': '123456', 'username': '13362544202'}
+2022-10-19 14:10:15,282 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'id': 19, 'username': '13362544202', 'password': '$2a$10$/yRa8G.AfRj2GTDDTia5AuYQHNfDzXE5rrLTTfk3c7gCGS490xyWu', 'icon': None, 'email': None, 'nickName': None, 'note': None, 'createTime': '2022-09-25T17:57:03.528+00:00', 'loginTime': None, 'status': 1}}
+2022-10-19 14:10:15,282 - [base_cases.py-->line:40] - INFO: 用例【注册成功】结束测试
+2022-10-19 14:10:15,283 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
+2022-10-26 16:58:26,756 - [base_cases.py-->line:19] - INFO: ---------【添加商品】模块开始测试------------
+2022-10-26 16:58:28,584 - [base_cases.py-->line:26] - INFO: 用例【增加商品成功】开始测试
+2022-10-26 16:58:28,650 - [base_cases.py-->line:68] - INFO: {'name': '四等原全无石做', 'navStatus': 91, 'showStatus': 53, 'icon': 'http://dummyimage.com/100x100', 'parentId': 26, 'productUnit': 'sintesseLoremut', 'productAttributeIdList': [34, 75], 'keywords': 'etmollitdoveniam', 'sort': 61436671, 'description': '问叫工反好本出厂七始究最维则。目别局阶入得育结技最示离。开都龙地容温持张快系使理文而住。包收眼建点其将实权飞来务年通感原。干过切置表物形其收集一队先共性济完候。'}
+2022-10-26 16:58:28,650 - [base_cases.py-->line:69] - INFO: {'timestamp': '2022-09-26T02:26:59.649+00:00', 'status': 400, 'error': 'Bad Request', 'path': '/productAttribute/category/create'}
+2022-10-26 16:58:28,771 - [base_cases.py-->line:22] - INFO: ---------【添加商品】模块结束测试------------
+2022-10-26 16:58:28,790 - [base_cases.py-->line:19] - INFO: ---------【获取商品】模块开始测试------------
+2022-10-26 16:58:29,041 - [base_cases.py-->line:26] - INFO: 用例【增加商品成功】开始测试
+2022-10-26 16:58:29,316 - [base_cases.py-->line:68] - INFO: {'id': '28'}
+2022-10-26 16:58:29,316 - [base_cases.py-->line:69] - INFO: {'timestamp': '2022-09-26T02:27:00.372+00:00', 'status': 404, 'error': 'Not Found', 'path': '/product/updateInfo'}
+2022-10-26 16:58:29,334 - [base_cases.py-->line:22] - INFO: ---------【获取商品】模块结束测试------------
+2022-10-26 16:58:29,339 - [base_cases.py-->line:19] - INFO: ---------【登陆】模块开始测试------------
+2022-10-26 16:58:29,339 - [base_cases.py-->line:26] - INFO: 用例【登录成功】开始测试
+2022-10-26 16:58:29,524 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro123'}
+2022-10-26 16:58:29,524 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'tokenHead': 'Bearer ', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjQxNTkyMjA1MzUsImV4cCI6MTY2NDc2NDAyMH0.5hGTNZwUyKJeF2VE2l8Zn3i76rGTeGqmIEEcoYlBdUO90Ku0yCPxD8JWrHlOu73xSVP2RXXlMbpS6iacmzOemw'}}
+2022-10-26 16:58:29,525 - [base_cases.py-->line:40] - INFO: 用例【登录成功】结束测试
+2022-10-26 16:58:29,531 - [base_cases.py-->line:26] - INFO: 用例【用户名不正确】开始测试
+2022-10-26 16:58:29,556 - [base_cases.py-->line:68] - INFO: {'username': 'admi1n', 'password': 'macro123'}
+2022-10-26 16:58:29,556 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': '用户名或密码错误', 'data': None}
+2022-10-26 16:58:29,556 - [base_cases.py-->line:40] - INFO: 用例【用户名不正确】结束测试
+2022-10-26 16:58:29,562 - [base_cases.py-->line:26] - INFO: 用例【密码不正确】开始测试
+2022-10-26 16:58:29,758 - [base_cases.py-->line:68] - INFO: {'username': 'admin', 'password': 'macro1223'}
+2022-10-26 16:58:29,759 - [base_cases.py-->line:69] - INFO: {'code': 500, 'message': '密码不正确', 'data': None}
+2022-10-26 16:58:29,759 - [base_cases.py-->line:40] - INFO: 用例【密码不正确】结束测试
+2022-10-26 16:58:29,768 - [base_cases.py-->line:22] - INFO: ---------【登陆】模块结束测试------------
+2022-10-26 16:58:29,858 - [base_cases.py-->line:19] - INFO: ---------【添加项目】模块开始测试------------
+2022-10-26 16:58:30,040 - [base_cases.py-->line:26] - INFO: 用例【添加项目成功】开始测试
+2022-10-26 16:58:30,069 - [base_cases.py-->line:68] - INFO: {'logo': 'aliquanullaesseinquis', 'name': '门即流', 'factoryStatus': 50, 'brandStory': 'ametnisivoluptate', 'firstLetter': 'autenisianim', 'showStatus': 66, 'bigPic': 'http://dummyimage.com/400x400', 'sort': 91560748}
+2022-10-26 16:58:30,069 - [base_cases.py-->line:69] - INFO: {'code': 404, 'message': 'usernamemust not be empty', 'data': None}
+2022-10-26 16:58:30,069 - [base_cases.py-->line:40] - INFO: 用例【添加项目成功】结束测试
+2022-10-26 16:58:30,075 - [base_cases.py-->line:22] - INFO: ---------【添加项目】模块结束测试------------
+2022-10-26 16:58:30,081 - [base_cases.py-->line:19] - INFO: ---------【注册】模块开始测试------------
+2022-10-26 16:58:30,081 - [base_cases.py-->line:26] - INFO: 用例【注册成功】开始测试
+2022-10-26 16:58:30,283 - [base_cases.py-->line:68] - INFO: {'password': '123456', 'username': '14971439452'}
+2022-10-26 16:58:30,283 - [base_cases.py-->line:69] - INFO: {'code': 200, 'message': '操作成功', 'data': {'id': 20, 'username': '14971439452', 'password': '$2a$10$eFfNZnh0kBonWz919kr9TOQbWSnxrzujWiXmrYDQcSu9SuPCCmQEK', 'icon': None, 'email': None, 'nickName': None, 'note': None, 'createTime': '2022-09-26T02:27:01.208+00:00', 'loginTime': None, 'status': 1}}
+2022-10-26 16:58:30,283 - [base_cases.py-->line:40] - INFO: 用例【注册成功】结束测试
+2022-10-26 16:58:30,285 - [base_cases.py-->line:22] - INFO: ---------【注册】模块结束测试------------
